@@ -8,14 +8,14 @@ class CalcTest {
 
     @Test
     void add() {
-        int a = 1;
-        int b = 2;
+        int a = 2;
+        int b = 1;
         assertEquals(a+b,Calc.add(a,b));
     }
     @Test
     void subtract() {
-        int a = 1;
-        int b = 2;
+        int a = 2;
+        int b = 1;
         assertEquals(a-b,Calc.subtract(a,b));
     }
 }
